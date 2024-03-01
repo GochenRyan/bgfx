@@ -56,3 +56,5 @@ target("libBGFX")
         add_files(BGFX_DIR .. "src/renderer_**.mm")
         add_files(BGFX_DIR .. "src/**.cpp|amalgamated.cpp")
     end
+
+    set_group("Vendor")
